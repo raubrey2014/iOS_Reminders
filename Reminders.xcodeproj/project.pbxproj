@@ -15,6 +15,7 @@
 		9DAB9D9F1C791B2600CE51A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DAB9D9D1C791B2600CE51A7 /* LaunchScreen.storyboard */; };
 		9DAB9DAA1C791B2600CE51A7 /* RemindersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB9DA91C791B2600CE51A7 /* RemindersTests.swift */; };
 		9DAB9DB51C791B2600CE51A7 /* RemindersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB9DB41C791B2600CE51A7 /* RemindersUITests.swift */; };
+		9DAB9DC31C791C1100CE51A7 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB9DC21C791C1100CE51A7 /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9DAB9DB01C791B2600CE51A7 /* RemindersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemindersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAB9DB41C791B2600CE51A7 /* RemindersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersUITests.swift; sourceTree = "<group>"; };
 		9DAB9DB61C791B2600CE51A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DAB9DC21C791C1100CE51A7 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		9DAB9D911C791B2600CE51A7 /* Reminders */ = {
 			isa = PBXGroup;
 			children = (
+				9DAB9DC21C791C1100CE51A7 /* TaskManager.swift */,
 				9DAB9D921C791B2600CE51A7 /* AppDelegate.swift */,
 				9DAB9D941C791B2600CE51A7 /* FirstViewController.swift */,
 				9DAB9D961C791B2600CE51A7 /* SecondViewController.swift */,
@@ -261,6 +264,7 @@
 			files = (
 				9DAB9D971C791B2600CE51A7 /* SecondViewController.swift in Sources */,
 				9DAB9D931C791B2600CE51A7 /* AppDelegate.swift in Sources */,
+				9DAB9DC31C791C1100CE51A7 /* TaskManager.swift in Sources */,
 				9DAB9D951C791B2600CE51A7 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
